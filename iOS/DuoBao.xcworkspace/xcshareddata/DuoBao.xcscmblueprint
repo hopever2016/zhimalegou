@@ -1,0 +1,75 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "873ea480-b582-4d55-8ca6-e56b94de354c++9513",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "931ea4f8-7fbb-4267-8f18-6b1efdc087a2++1936" : {
+
+    },
+    "873ea480-b582-4d55-8ca6-e56b94de354c++9513" : {
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "zhimalegou\/trunk"
+    },
+    "873ea480-b582-4d55-8ca6-e56b94de354c++1663" : {
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "zhimalegou\/trunk"
+    },
+    "873ea480-b582-4d55-8ca6-e56b94de354c++3496" : {
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "zhimalegou\/trunk"
+    },
+    "931ea4f8-7fbb-4267-8f18-6b1efdc087a2++9567" : {
+
+    },
+    "8fb29d72-f352-44e4-b356-548a4d6ac5c3++6670" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "931ea4f8-7fbb-4267-8f18-6b1efdc087a2++1936" : 9223372036854775807,
+    "873ea480-b582-4d55-8ca6-e56b94de354c++9513" : 9223372036854775807,
+    "873ea480-b582-4d55-8ca6-e56b94de354c++1663" : 9223372036854775807,
+    "873ea480-b582-4d55-8ca6-e56b94de354c++3496" : 9223372036854775807,
+    "931ea4f8-7fbb-4267-8f18-6b1efdc087a2++9567" : 9223372036854775807,
+    "8fb29d72-f352-44e4-b356-548a4d6ac5c3++6670" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AB7DB38F-B7CA-47AD-AA7E-BEB28E789F27",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "931ea4f8-7fbb-4267-8f18-6b1efdc087a2++1936" : "yiyuangou\/Extern\/MustPaySDK\/MustPayBundle\/AlipaySDK.framework\/",
+    "873ea480-b582-4d55-8ca6-e56b94de354c++9513" : "yiyuangou\/",
+    "873ea480-b582-4d55-8ca6-e56b94de354c++1663" : "..",
+    "873ea480-b582-4d55-8ca6-e56b94de354c++3496" : "DuoBao\/",
+    "931ea4f8-7fbb-4267-8f18-6b1efdc087a2++9567" : "yiyuangou\/Extern\/MustPaySDK\/MustPayBundle\/AlipaySDK.bundle\/",
+    "8fb29d72-f352-44e4-b356-548a4d6ac5c3++6670" : "DuoBao\/Extern\/Security\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DuoBao",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DuoBao.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.111",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "873ea480-b582-4d55-8ca6-e56b94de354c++1663"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.111",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "873ea480-b582-4d55-8ca6-e56b94de354c++3496"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.111",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "873ea480-b582-4d55-8ca6-e56b94de354c++9513"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.20.0.15\/project\/cn\/ChiefSign",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8fb29d72-f352-44e4-b356-548a4d6ac5c3++6670"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.9",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "931ea4f8-7fbb-4267-8f18-6b1efdc087a2++1936"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.9",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "931ea4f8-7fbb-4267-8f18-6b1efdc087a2++9567"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+//
+//  DuoBao-Prefix.pch
+//  DuoBao
+//
+//  Created by gthl on 16/2/11.
+//  Copyright © 2016年 linqsh. All rights reserved.
+//
+
+#ifndef DuoBao_Prefix_pch
+#define DuoBao_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DuoBao_Prefix_pch */
+
+#define FullScreen   [[UIScreen mainScreen] bounds]
+#define PublicImage(imageName) [Tool imageInPublic:(imageName)]
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define UIColorFromRGBA(rgbValue, alphaValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(float)(alphaValue)]
+
+#define MARGIN 16
+
+#define ThriceExchangeRate 100
+
+#define kWeixinAuth @"auth"
+#define kWeixinAuthNotification @"kWeixinAuthNotification"
+
+#define kTimeValue 60
+
+#define APPScheme @"zhimalegou"
+
+#define kNotificationMustpayCheck @"kNotificationMustpayCheck"
+
+/******* 消息通知名称 *******/
+#define kReachableNetworkStatusChange @"ReachableNetworkStatusChange" //网络状态改变
+
+//刷新首页数据
+#define kUpdateHomePageData @"kUpdateHomePageData"
+
+//刷新揭晓数据
+#define kUpdateJieXiaoData @"kUpdateJieXiaoData"
+
+//刷新购物车数据
+#define kUpdateShopCartData @"kUpdateShopCartData"
+
+//更新个人信息
+#define kUpdateUserInfo @"kUpdateUserInfo"
+
+//登录成功
+#define kLoginSuccess @"LoginSuccess"
+
+//在浏览器中支付成功
+#define kPaySuccessInSafari @"kPaySuccessInSafari"
+
+//退出登录
+#define kQuitLoginSuccess @"QuitLoginSuccess"
+
+//版本校验判断是否正在进行苹果审核
+#define kShouldVerifyVersion @"kShouldVerifyVersion"
+
+// 支付成功
+#define kPayNotification    @"kPayNotification"
+
+/******* 微信支付、支付宝账号信息 *******/
+
+//微信支付回调
+#define kWeiXinPayNotif @"kWeiXinPayNotif"
+#define kAlipayNotification @"kAlipayNotification"
+
+//key值
+#define WeiXinKey @"wx0fb9a92d096ce238"
+#define SpayWeixinKey @"wxe773d17c638d319a"
+#define MustpayWeixinKey @"wx8dcf7ca370a1d383"
+
+//密钥
+#define WeiXinSecret @"3e8ff3864b602e56239e5c5b628a6ba4"
+
+//商户号
+#define WeiXinPiD @"1392987902"
+
+//加密用的key
+#define WeiXinAppKey @"168fde4e9c2e2bb619514ecea14zabao"
+
+
+//支付宝pid
+#define AliPayId @"2088421903030084"//pid
+
+#define AliPayAccount @"xiheng@aliyun.com"//收款账户
+
+//秘钥
+#define AliPayPrivateKey @"MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBANvV3qD+K0QPIDZUYWYZUBJL9nnAeSBBYbPxGu+462l6BMzVg4CWkYVOIcw7OivCkQXcPDCM2nac4PPq1lAVsdvMKLOHz00bksZLF2SvHz4cNoCOIvOBuu79OInP/4koAuQI0t3zes0FLgXnPMmaW+/A0eDkUGghpbjjzLg3jvcDAgMBAAECgYEArq+C6fEuljVixmlEwCnLG87q+5J7basmpSMo4WbTAgyotc/QYCTFW+VbK/vAXLeOH9cCqR20F17PzmNEi3zBx8pWnBpjSHWn5Kni/zbkB+KwspzdenVNgMrjnkUH5DmcMNvz4QmYPTV9LoTM8SM1+FmuAn4M8aFJoSiD5gi/ouECQQD3fiyMbIYs3Rr1Qr+Np6lHdYJTb3udg9WDJzxAlcdEi6YFjjaFi5mYA1cyFrJrE/WiiwlRHuiqIeygkwQf9iaxAkEA42RSlaHBDa/w2IJLi7iLc/5NKhcSFNoyBPxrfUNg5HizLhsRAPHiyLs7QBdv1yFrbx2BGdM4Kr+bMUDChtVN8wJAQ052EQ5mgwbykObBL2X8XGmxsr0r0g+LXmqqMSpKkfKkiPg/DZyEfdnSudWAWiyIbdcABqawQayOLLEuuv53UQJBAIZfmo3h8HtuJR1MoegHPiFlfaQJzh2Uc0qO/9YeIvvgd8IfLIUqa6HDQtg1AVpX3WzkOo5QSzi30bXhVxLmqhECQFd/wNAz+VSpkqtqmyuFvFuB/X/o4LTj8aeUyjyfCjq4si/yLxNhGMc8yG1XLAoWgeVWVw4ZMWfXu7ifRPmXOlY="
+
+
+/******* 各平台key值 *******/
+
+#define JGPushKey @"411ed2793204ae54943fb71b"
+
+#define QQKey @"1105708152"
+
+#define QQSecret @"q5djecKHmpVzijAE"
+
+#define WeiBoKey @"1786294649"
+
+#define WeiBoSecret @"39857140fa269be9b4f1f45621253fc7"
+
+#define kMeiQiaAppKey @"ec81ca2a7b51e80e9fae33cc64ce5995"
+
+#define kMustpayAppId @"dff0db459d7a456db80d14dd8317ec86"
+
+
+/******* 分享链接 *******/
+
+#define ShareLinkItunes @"https://itunes.apple.com/cn/app/id1159271723?mt=8"
+#define ShareDownloadLink @"http://a.app.qq.com/o/simple.jsp?pkgname=com.vma.project.base.zmlg"
+#define kInviteLinkPrefix @"http://m.zhimalegou.com/GetTreasureAppSesame/invite"
+// 0元购 iOS分享渠道
+#define kItunesLinkFreeGo @"https://itunes.apple.com/app/apple-store/id1159271723?pt=118396891&ct=0yuangou&mt=8"
+// 邀请好友 iOS分享渠道
+#define kItunesLinkInvite @"https://itunes.apple.com/app/apple-store/id1159271723?pt=118396891&ct=invite&mt=8"
+
+/******* 全局头文件 *******/
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <ShareSDK/ShareSDK.h>
+#import "WXApi.h"
+#import "WeiboSDK.h"
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <AlipaySDK/AlipaySDK.h>
+#import "SDiPhoneVersion.h"
+#import "JSONKit.h"
+#import "GA.h"
+
+#import "JustinLog.h"
+#import "TypeDefine.h"
+#import "ServerProtocol.h"
+#import "Tool.h"
+#import "NSObject+LKDBHelper.h"
+#import "ShareManager.h"
+#import "HttpHelper.h"
+#import "URLDefine.h"
+#import "UIView+Additions.h"
+#import "UIView+Extend.h"
+#import "UIView+YYAdd.h"
+#import "UIView+TYAlertView.h"
+#import "UIView+WhenTappedBlocks.h"
+#import "UIButton+TopDown.h"
+
+#import "UIImage+Color.h"
+#import "Colours.h"
+#import "UIColor+RGBValues.h"
+#import "NSDate-Utilities.h"
+
+#import "MBProgressHUD.h"
+#import "MJRefresh.h"
+#import "JPUSHService.h"
+#import "NSDiction+External.h"
+#import "UIImageView+WebCache.h"
+#import "NSString+WPAttributedMarkup.h"
+#import "WPAttributedStyleAction.h"
+#import "NSDictionary+unicode.h"
+#import "IQKeyboardManager.h"
+
+#endif

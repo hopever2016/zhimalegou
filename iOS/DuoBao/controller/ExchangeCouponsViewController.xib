@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExchangeCouponsViewController">
+            <connections>
+                <outlet property="bgView" destination="Xz7-RX-0r8" id="tIC-l3-vL9"/>
+                <outlet property="couponsText" destination="jF1-x3-DYX" id="ENs-Wf-ta4"/>
+                <outlet property="sureButton" destination="Z9Q-8T-r9x" id="Pcf-JA-Dvr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xz7-RX-0r8">
+                    <rect key="frame" x="8" y="15" width="231" height="38"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入兑换码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jF1-x3-DYX">
+                            <rect key="frame" x="8" y="0.0" width="223" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="nVL-vn-HJy"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9Q-8T-r9x">
+                    <rect key="frame" x="247" y="15" width="65" height="38"/>
+                    <color key="backgroundColor" red="0.91372549020000005" green="0.1450980392" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="A4Y-9b-6c4"/>
+                        <constraint firstAttribute="width" constant="65" id="EAA-QF-fFG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="兑 换">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickSureButtonAction:" destination="-1" eventType="touchUpInside" id="0N1-fB-Tqg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Xz7-RX-0r8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="4fw-o5-eKm"/>
+                <constraint firstItem="Xz7-RX-0r8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="FGm-T0-yDL"/>
+                <constraint firstAttribute="trailing" secondItem="Z9Q-8T-r9x" secondAttribute="trailing" constant="8" id="NOP-1U-sjS"/>
+                <constraint firstItem="Z9Q-8T-r9x" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="Odf-gR-ctM"/>
+                <constraint firstItem="Z9Q-8T-r9x" firstAttribute="leading" secondItem="Xz7-RX-0r8" secondAttribute="trailing" constant="8" id="vje-xO-197"/>
+            </constraints>
+            <point key="canvasLocation" x="-14" y="114"/>
+        </view>
+    </objects>
+</document>
